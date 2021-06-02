@@ -21,3 +21,9 @@ C:/Test/TicTacToe - TDD/Src/TicTacToe.Lib/obj/Debug/TicTacToe.Lib.pdb
 /mnt/Games/repos/TicTacToe - TDD/Src/TicTacToe.Lib/obj/Debug/TicTacToe.Lib.csproj.CoreCompileInputs.cache
 /mnt/Games/repos/TicTacToe - TDD/Src/TicTacToe.Lib/obj/Debug/TicTacToe.Lib.dll
 /mnt/Games/repos/TicTacToe - TDD/Src/TicTacToe.Lib/obj/Debug/TicTacToe.Lib.pdb
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Lib/bin/Debug/TicTacToe.Lib.dll
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Lib/bin/Debug/TicTacToe.Lib.pdb
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Lib/obj/Debug/TicTacToe.Lib.csprojAssemblyReference.cache
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Lib/obj/Debug/TicTacToe.Lib.csproj.CoreCompileInputs.cache
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Lib/obj/Debug/TicTacToe.Lib.dll
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Lib/obj/Debug/TicTacToe.Lib.pdb

@@ -1,4 +1,9 @@
-$HEADER$namespace $NAMESPACE$
+namespace TicTacToeLib.Models.Enums
 {
-  public enum $ENUM$ {$END$}
+    public enum Direction
+    {
+        Right = 0,
+        Diagonal = 1,
+        Down = 2
+    }
 }

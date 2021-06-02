@@ -38,3 +38,13 @@ C:/Test/TicTacToe - TDD/Src/TicTacToe.Console/obj/Debug/TicTacToe.Console.pdb
 /mnt/Games/repos/TicTacToe - TDD/Src/TicTacToe.Console/obj/Debug/TicTacToe.Console.csproj.CopyComplete
 /mnt/Games/repos/TicTacToe - TDD/Src/TicTacToe.Console/obj/Debug/TicTacToe.Console.exe
 /mnt/Games/repos/TicTacToe - TDD/Src/TicTacToe.Console/obj/Debug/TicTacToe.Console.pdb
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Console/obj/Debug/TicTacToe.Console.csprojAssemblyReference.cache
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Console/obj/Debug/TicTacToe.Console.csproj.CoreCompileInputs.cache
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Console/obj/Debug/TicTacToe.Console.exe
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Console/obj/Debug/TicTacToe.Console.pdb
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Console/bin/Debug/TicTacToe.Console.exe.config
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Console/bin/Debug/TicTacToe.Console.exe
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Console/bin/Debug/TicTacToe.Console.pdb
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Console/bin/Debug/TicTacToe.Lib.dll
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Console/bin/Debug/TicTacToe.Lib.pdb
+/mnt/Games/repos/marktplatzgmbh-tic-tac-toe/TicTacToe - TDD/Src/TicTacToe.Console/obj/Debug/TicTacToe.Console.csproj.CopyComplete

@@ -1,12 +1,17 @@
 # marktplatzgmbh-tic-tac-toe
+
 Repository für die Testaufgabe im Bewerbungsverfahren mit der Marktplatz GmbH
 
-# TODO:
-1. class GameBoard
-    1.1. winningComninations wegschmeißen -> WinninwinningCombinations müssen hardcoded angepasst werden für bspw größere Spielfelder.
-    1.2. Generierung des Spielfeldes anhand eines int -> 4 erzuegt eine 4x4-Feld; Gewinnsumme == 4
-    1.3. Prüdung nicht mehr auf winning Combinations, sondern auf Summe
-        1.3.1. Jeder eintrag in das spielfeld wird Object (Entry.cs)
-        1.3.2. Jeder Eintrag prüft das Feld rechts von sich, das feld diagonal-rechts von sich und das Feld unter sich.
-        1.3.3. Findet ein Eintrag an einer dieser Stellen einen zum eigenen Spielergehörenden eintrag wird die wegsumme +1 addiert.
-        1.3.4. Die Prüfung des Spielfeldes findet immer oben links beginnend statt!
+# Improvements
+
+- Um festzulegen, mit welcher Höhe ein spieler gewinnen kann, wurde ein ein winCount in den Konstruktor eingeführt. Es gibt nun zwei Konstruktoren. Wird im Konstruktor keine Gewinnhöhe festgelegt, oder wird eine Höhe oberhalb der maximal möglichen Zellen im generierten spielfeld angegeben, so gilt die Dimension (bei 3x3 ist die Dimension 3 und damit die maximale anzahl Felder, die besetzt werden können in einer Reihe 3) als Gewinnhöhe.
+- Der Ansatz der Spielerspezifischen Bit-basierten Listen wurde fallen gelassen und stattdessen durch eine Liste von `Entry`-Objekten ersetzt.
+  - `Entry` Objekte kennen ihre eigenen Position auf dem Spielfeld.
+  - `Entry` Objekte können genutzt werden um zu erfahren, ob es ein "Nachbar"-Entry gibt.
+- Anstatt eines Enums zur Bestimmung der Spieler wurde aufgrund der Inflexibilität dieses Ansatzes auf eine Liste von `Player`-Objekten hinübergewechselt.
+  - Die Anzahl der Spieler lässt sich damit frei einstellen.
+  - Die `SwitchPlayer()`-Methode schaltet nun immer mit index + 1 durch die liste, modulo der gesamt anzahl der Spieler, damit der letzte Spieler wieder auf den ersten verweist.
+
+# TODOs
+
+Siehe Issues!

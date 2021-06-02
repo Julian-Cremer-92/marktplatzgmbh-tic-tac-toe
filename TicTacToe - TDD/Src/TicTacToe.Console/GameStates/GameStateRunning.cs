@@ -1,5 +1,6 @@
 ﻿using System;
 using TicTacToeLib;
+using TicTacToeLib.Models;
 
 namespace TicTacToe.Console.GameStates
 {
@@ -20,10 +21,10 @@ namespace TicTacToe.Console.GameStates
 
             try
             {
-                // Inverse input for internal representation
-                board.Set(9 - field);
+                board.Set(field, field); //TODO: do correct!
                 moves++;
 
+                // TODO: let entries check themselves if player has won!
                 if (board.CheckWinner())
                 {
                     return new GameStateWon() { LastGameState = this };

@@ -1,4 +1,8 @@
-$HEADER$namespace $NAMESPACE$
+namespace TicTacToeLib.Models
 {
-  public class $CLASS$ {$END$}
+    public class Position
+    {
+        public int PosX { get; set; }
+        public int PosY { get; set; }
+    }
 }
