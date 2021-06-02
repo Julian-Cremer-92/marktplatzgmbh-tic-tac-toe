@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TicTacToe.Lib.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:TicTacToeLib.Fakes.StubGameBoard">
+            <summary>Stub-Typ von TicTacToeLib.GameBoard</summary>
+        </member>
+        <member name="M:TicTacToeLib.Fakes.StubGameBoard.#ctor(TicTacToeLib.IUserInput)">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:TicTacToeLib.Fakes.StubGameBoard.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:TicTacToeLib.Fakes.StubGameBoard.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubGameBoard.</summary>
+        </member>
+        <member name="P:TicTacToeLib.Fakes.StubGameBoard.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:TicTacToeLib.Fakes.StubGameBoard.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+        <member name="M:TicTacToeLib.Fakes.StubGameBoard.ToString">
+            <summary>Legt die stub von GameBoard.ToString() fest.</summary>
+        </member>
+        <member name="F:TicTacToeLib.Fakes.StubGameBoard.ToString01">
+            <summary>Legt die stub von GameBoard.ToString() fest.</summary>
+        </member>
+        <member name="T:TicTacToeLib.Fakes.StubIUserInput">
+            <summary>Stub-Typ von TicTacToeLib.IUserInput</summary>
+        </member>
+        <member name="M:TicTacToeLib.Fakes.StubIUserInput.#ctor">
+            <summary>Initialisiert eine neue Instanz von type StubIUserInput.</summary>
+        </member>
+        <member name="F:TicTacToeLib.Fakes.StubIUserInput.GetFieldPlayer">
+            <summary>Legt die stub von IUserInput.GetField(Player player) fest.</summary>
+        </member>
+        <member name="M:TicTacToeLib.Fakes.StubIUserInput.TicTacToeLib#IUserInput#GetField(TicTacToeLib.Player)">
+            <summary>Legt die stub von IUserInput.GetField(Player player) fest.</summary>
+        </member>
+        <member name="T:TicTacToeLib.Fakes.StubUserInput">
+            <summary>Stub-Typ von TicTacToeLib.UserInput</summary>
+        </member>
+        <member name="M:TicTacToeLib.Fakes.StubUserInput.#ctor">
+            <summary>Initialisiert eine neue Instanz.</summary>
+        </member>
+        <member name="P:TicTacToeLib.Fakes.StubUserInput.CallBase">
+            <summary>Ruft einen Wert ab, der angibt, ob die Basismethode anstelle des Fallback-Verhaltens abgerufen werden soll, oder legt diesen fest.</summary>
+        </member>
+        <member name="M:TicTacToeLib.Fakes.StubUserInput.InitializeStub">
+            <summary>Initialisiert eine neue Instanz von type StubUserInput.</summary>
+        </member>
+        <member name="P:TicTacToeLib.Fakes.StubUserInput.InstanceBehavior">
+            <summary>Ruft das Instanzverhalten ab, oder legt dieses fest.</summary>
+        </member>
+        <member name="P:TicTacToeLib.Fakes.StubUserInput.InstanceObserver">
+            <summary>Ruft den Instanzbeobachter ab, oder legt ihn fest.</summary>
+        </member>
+    </members>
+</doc>

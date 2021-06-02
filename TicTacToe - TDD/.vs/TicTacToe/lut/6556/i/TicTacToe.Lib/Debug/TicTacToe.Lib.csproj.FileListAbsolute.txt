@@ -1,0 +1,7 @@
+C:\Projekte\TicTacToe - TDD\.vs\TicTacToe\lut\0\b\TicTacToe.Lib\bin\Debug\TicTacToe.Lib.dll
+C:\Projekte\TicTacToe - TDD\.vs\TicTacToe\lut\0\b\TicTacToe.Lib\bin\Debug\TicTacToe.Lib.pdb
+C:\Projekte\TicTacToe - TDD\.vs\TicTacToe\lut\0\i\TicTacToe.Lib\Debug\TicTacToe.Lib.csprojResolveAssemblyReference.cache
+C:\Projekte\TicTacToe - TDD\.vs\TicTacToe\lut\0\i\TicTacToe.Lib\Debug\TicTacToe.Lib.csproj.CoreCompileInputs.cache
+C:\Projekte\TicTacToe - TDD\.vs\TicTacToe\lut\0\i\TicTacToe.Lib\Debug\TicTacToe.Lib.csproj.CopyComplete
+C:\Projekte\TicTacToe - TDD\.vs\TicTacToe\lut\0\i\TicTacToe.Lib\Debug\TicTacToe.Lib.dll
+C:\Projekte\TicTacToe - TDD\.vs\TicTacToe\lut\0\i\TicTacToe.Lib\Debug\TicTacToe.Lib.pdb

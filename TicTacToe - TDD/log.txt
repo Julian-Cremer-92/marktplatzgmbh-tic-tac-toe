@@ -1,0 +1,7 @@
+13.07.2018 14:03:59: puredevreg: puredevreg: installed: 00/00/0000 00:00:00:0000 Sunday
+13.07.2018 14:03:59: puredevreg: puredevreg: installed: false date: 00/00/0000 00:00:00:0000 Sunday
+13.07.2018 14:03:59: puredevreg: puredevreg: registered: false
+13.07.2018 14:03:59: puredevreg: puredevreg: installing...
+13.07.2018 14:03:59: puredevreg: puredevreg: no trial install date found in registry. Setting install date to now
+13.07.2018 14:03:59: puredevreg: puredevreg: verifying install with database...
+13.07.2018 14:04:00: puredevreg: puredevreg: install verified
