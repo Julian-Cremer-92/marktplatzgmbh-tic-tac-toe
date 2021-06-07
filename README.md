@@ -15,3 +15,23 @@ Repository für die Testaufgabe im Bewerbungsverfahren mit der Marktplatz GmbH
 # TODOs
 
 Siehe Issues!
+
+# Ideas
+## Online Multiplayer
+Online Multy-Player kann durch eine Web-Api realisiert werden. Ein Spieler erstellt einen (Nicht-Dedizierter-Multi-Player). Die Web-API stellt Controller mit Funktionen zur verfügung:
+- GameController
+  - NewGame(): Game
+  - JoinGame(string seed)
+  - QuitGame(string seed)
+  - Set(string seed, int playerId, int posX, int posY): Game
+- PushService / SignalR um spielerwechsel mitzuteilen und aktiv das spielfeld im Frontend zu aktualisieren.
+
+Das Game-Object
+```json
+// Game
+{
+  "seed": "string", // ein token / eine guid um das spiel zu identifizieren. Kann geteilt werden um Spiler einzuladen
+  "gameField": Entry[]
+}
+```
+Die  im Game Object abgelegten Informationen sind vollständig um dine Darstellung im Frontend zu ermöglichem. Mit Der Set-Methode kann nun ein Spieler, wenn er am Zug ist einen neuen Eintrag erzeugen, indem er angibt in welchem Spiel, als welcher Spieler, er wo einen Haken setzen möchte. Das Frontend würde schon belegte Felder sperren, dennoch würde das BE eine excepetion werfen, die im Frontend darüber asukunft gibt, dass das feld besetzt ist.
