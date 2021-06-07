@@ -20,11 +20,12 @@ Siehe Issues!
 ## Online Multiplayer
 Online Multy-Player kann durch eine Web-Api realisiert werden. Ein Spieler erstellt einen (Nicht-Dedizierter-Multi-Player). Die Web-API stellt Controller mit Funktionen zur verfügung:
 - GameController
-  - NewGame(): Game
+  - NewGame(int playerCount, int winCount, int dimension): Game
   - JoinGame(string seed)
   - QuitGame(string seed)
-  - Set(string seed, int playerId, int posX, int posY): Game
-- PushService / SignalR um spielerwechsel mitzuteilen und aktiv das spielfeld im Frontend zu aktualisieren.
+  - Set(string seed, int posX, int posY): Game
+- PushService / SignalR um Spielerwechsel mitzuteilen und aktiv das spielfeld im Frontend zu aktualisieren.
+  - so kann der aktuelle spielzustand (warte auf andere spieler, ein sieler hat gewonnen etc.) proaktiv mitgeteilt werden.
 
 Das Game-Object
 ```json
@@ -35,3 +36,5 @@ Das Game-Object
 }
 ```
 Die  im Game Object abgelegten Informationen sind vollständig um dine Darstellung im Frontend zu ermöglichem. Mit Der Set-Methode kann nun ein Spieler, wenn er am Zug ist einen neuen Eintrag erzeugen, indem er angibt in welchem Spiel, als welcher Spieler, er wo einen Haken setzen möchte. Das Frontend würde schon belegte Felder sperren, dennoch würde das BE eine excepetion werfen, die im Frontend darüber asukunft gibt, dass das feld besetzt ist.
+
+Um die Eindeutigkeit der Spieler zu gewährleisten, bzw umzu verhindern, dass ein Spiler sich für einen anderen ausgibt, wird für jedeSession ein Token generiert. Der PlayerContext, ermittelt dann per Attribute an den Methoden durch die Momentane Session, die Spieler-Id. So kann kein Spiler einen anderen Manipulieren.
